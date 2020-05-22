@@ -5,15 +5,15 @@
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Runs Cypress Tests
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+npm run test:components
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Task List
+
+1. Run the HelloWorld.spec.js
+2. Write the pending test for HelloWorld.spec.js's FAQ
+3. Open Carousel.vue and Carousel.spec.js
+4. Finish writing the specs for Carousel.vue
+5. What features would you like to see that you haven't yet?
