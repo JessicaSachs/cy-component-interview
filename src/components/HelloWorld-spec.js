@@ -1,8 +1,8 @@
 import { mount } from 'cypress-vue-unit-test'
-import HelloWorld from '../../src/components/HelloWorld.vue'
+import HelloWorld from './HelloWorld.vue'
 
 describe('HelloWorld', () => {
-  it('Works awesomely', () => {
+  it('renders a title', () => {
     mount(HelloWorld)
     cy.get('[data-testid=hello-world-title]').should('exist')
   })

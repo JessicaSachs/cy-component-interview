@@ -5,9 +5,9 @@
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Launch cypress
 ```
-npm run serve
+npm run test:components
 ```
 
 ### Compiles and minifies for production

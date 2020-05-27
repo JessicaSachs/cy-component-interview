@@ -3,3 +3,7 @@
         Hello world! This is your first component tested by Cypress
     </h1>
 </template>
+
+<script>
+export default {}
+</script>
